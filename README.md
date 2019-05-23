@@ -1,0 +1,2 @@
+# simpleCounter
+react-redux
