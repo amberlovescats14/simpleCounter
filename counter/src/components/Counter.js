@@ -1,14 +1,13 @@
 import React from 'react';
-import { connect } from 'react-redux'
-import { Button } from 'react-bootstrap'
+import { connect } from 'react-redux';
 
 function Counter(props) {
   return (
     <div>
       <h1>This is a Counter</h1>
       <h1>{props.count}</h1>
-      <Button variant="outline-primary" onClick={props.onIncrement}>Incrament</Button>
-      <Button onClick={props.onDecrement}>Decrament</Button>
+      <button  onClick={props.onIncrement}>Incrament</button>
+      <button onClick={props.onDecrement}>Decrament</button>
     </div>
   )
 }
